@@ -132,6 +132,7 @@ def get_indicators(timeframe):
     return jsonify(indicators)
 
 
+
 # Run the Flask app
 if __name__ == '__main__':
     app.run(debug=True)
